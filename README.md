@@ -2,6 +2,17 @@
 
 A Python script that automatically generates Stripe payment links from a CSV file containing product information. This tool reads product data from a CSV file, creates corresponding Stripe products and prices, and generates payment links for each item.
 
+## ⚠️ Disclaimer
+
+**This is an unofficial, community-created tool and is NOT affiliated with or endorsed by Stripe.** 
+
+- Use this tool at your own risk
+- Test thoroughly in Stripe's test environment before using with live API keys
+- Review all generated payment links before sharing with customers
+- The authors are not responsible for any issues, charges, or problems that may arise from using this tool
+- Always follow Stripe's terms of service and best practices
+- Keep your API keys secure and never commit them to version control
+
 ## Features
 
 - 🔗 Automatically creates Stripe payment links for products in bulk
