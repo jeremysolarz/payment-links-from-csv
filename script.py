@@ -53,7 +53,11 @@ def create_payment_link(product_name, amount_usd, metadata):
                     "quantity": 1,
                 },
             ],
-            metadata=metadata
+            metadata=metadata,
+            payment_intent_data={
+                "metadata": metadata,
+                "description": product_name,
+            }
         )
 
         print(f"✅ Created payment link for '{product_name}'")
